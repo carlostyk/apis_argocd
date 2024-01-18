@@ -9,5 +9,5 @@ spec:
     active: true
     proxy:
         target_url: http://httpbin.org
-        listen_path: /httpbin-api
+        listen_path: /httpbin-amber
         strip_listen_path: true
