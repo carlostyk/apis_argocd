@@ -11,7 +11,7 @@ spec:
     listen_path: /httpbin-jwt
     strip_listen_path: true
   enable_jwt: true
-  jwt_signing_method: hmac
+  jwt_signing_method: rsa
   jwt_source: aHR0cHM6Ly9sZW11ci0xNS5jbG91ZC1pYW0uY29tL2F1dGgvcmVhbG1zL2Nhcmxvc3R5ay9wcm90b2NvbC9vcGVuaWQtY29ubmVjdC9jZXJ0cw==
   jwt_identity_base_field: sub
   jwt_policy_field_name: pol
