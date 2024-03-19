@@ -8,7 +8,7 @@ spec:
   active: true
   proxy:
     target_url: https://httpbingo.org
-    listen_path: /jwt-hmac
+    listen_path: /httpbin-jwt
     strip_listen_path: true
   enable_jwt: true
   jwt_signing_method: hmac
