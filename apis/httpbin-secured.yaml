@@ -27,7 +27,7 @@ spec:
   state: active
   active: true
   access_rights_array:
-    - name: httpbin
+    - name: httpbin-secured
       namespace: tyk
       versions:
         - Default
