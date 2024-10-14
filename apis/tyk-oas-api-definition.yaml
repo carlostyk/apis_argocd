@@ -1,0 +1,10 @@
+apiVersion: tyk.tyk.io/v1alpha1
+kind: TykOasApiDefinition
+metadata:
+  name: petstore
+spec:
+  tykOAS:
+    configmapRef:
+      name: tyk-oas-api-config   # Metadata name of the ConfigMap resource that stores the OAS API Definition
+      namespace: tyk             # Metadata namespace of the ConfigMap resource
+      keyName: oas-api-definition.json # Key for retrieving OAS API Definition from the ConfigMap
